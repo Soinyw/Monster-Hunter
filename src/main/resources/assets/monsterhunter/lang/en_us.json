@@ -1,0 +1,13 @@
+{
+  "itemGroup.monsterhunter": "Example Mod Tab",
+  "block.monsterhunter.example_block": "Example Block",
+  "item.monsterhunter.example_item": "Example Item",
+
+  "monsterhunter.configuration.title": "Monster Hunter Configs",
+  "monsterhunter.configuration.section.monsterhunter.common.toml": "Monster Hunter Configs",
+  "monsterhunter.configuration.section.monsterhunter.common.toml.title": "Monster Hunter Configs",
+  "monsterhunter.configuration.items": "Item List",
+  "monsterhunter.configuration.logDirtBlock": "Log Dirt Block",
+  "monsterhunter.configuration.magicNumberIntroduction": "Magic Number Text",
+  "monsterhunter.configuration.magicNumber": "Magic Number"
+}
