@@ -20,11 +20,15 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.2.1'  # 明确指定版本
+          cache-disabled: false     # 启用缓存（默认就是true）
+          gradle-home-cache-includes: |
+            caches
+            wrappers
 
-      # This is needed to be able to run ./gradlew below
-      # You can run `git update-index --chmod +x gradlew` then remove this step.
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew build --no-daemonlew build
