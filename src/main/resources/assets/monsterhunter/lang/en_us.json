@@ -1,7 +1,7 @@
 {
-  "itemGroup.monsterhunter": "Example Mod Tab",
-  "block.monsterhunter.example_block": "Example Block",
-  "item.monsterhunter.example_item": "Example Item",
+  "item.monsterhunter.ice_ether":"Ice Ether",
+  "item.monsterhunter.raw_ice_ether":"Raw Ice Ether",
+  "item.monsterhunter.material.cardboard":"Cardboard",
 
   "monsterhunter.configuration.title": "Monster Hunter Configs",
   "monsterhunter.configuration.section.monsterhunter.common.toml": "Monster Hunter Configs",

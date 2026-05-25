@@ -1,5 +1,6 @@
 package com.example.mosterhunter;
 
+import com.example.mosterhunter.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -68,6 +69,8 @@ public class MonsterHunter {
     public MonsterHunter(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModItems.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
